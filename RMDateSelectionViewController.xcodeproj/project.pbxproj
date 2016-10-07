@@ -7,18 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D3B8C9461DA7CA320034EF60 /* RMActionController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3B8C9451DA7CA320034EF60 /* RMActionController.framework */; };
 		D3D4B9531C7F3F5300DB0046 /* RMDateSelectionViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = D3D4B9521C7F3F5300DB0046 /* RMDateSelectionViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D3D4B95B1C7F3F7200DB0046 /* RMDateSelectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3D4B95A1C7F3F7200DB0046 /* RMDateSelectionViewController.m */; };
-		D3D4B95F1C805D1B00DB0046 /* RMActionController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3D4B95E1C805D1B00DB0046 /* RMActionController.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D3B8C9451DA7CA320034EF60 /* RMActionController.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RMActionController.framework; path = Carthage/Build/iOS/RMActionController.framework; sourceTree = "<group>"; };
 		D3D4B94F1C7F3F5300DB0046 /* RMDateSelectionViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RMDateSelectionViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3D4B9521C7F3F5300DB0046 /* RMDateSelectionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RMDateSelectionViewController.h; sourceTree = "<group>"; };
 		D3D4B9541C7F3F5300DB0046 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D3D4B95A1C7F3F7200DB0046 /* RMDateSelectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMDateSelectionViewController.m; sourceTree = "<group>"; };
 		D3D4B95C1C805CCB00DB0046 /* Cartfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
-		D3D4B95E1C805D1B00DB0046 /* RMActionController.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RMActionController.framework; path = Carthage/Build/iOS/RMActionController.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,20 +26,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D3D4B95F1C805D1B00DB0046 /* RMActionController.framework in Frameworks */,
+				D3B8C9461DA7CA320034EF60 /* RMActionController.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D3B8C9441DA7CA320034EF60 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D3B8C9451DA7CA320034EF60 /* RMActionController.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D3D4B9451C7F3F5300DB0046 = {
 			isa = PBXGroup;
 			children = (
-				D3D4B95E1C805D1B00DB0046 /* RMActionController.framework */,
 				D3D4B95C1C805CCB00DB0046 /* Cartfile */,
 				D3D4B9511C7F3F5300DB0046 /* RMDateSelectionViewController */,
 				D3D4B9501C7F3F5300DB0046 /* Products */,
+				D3B8C9441DA7CA320034EF60 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
